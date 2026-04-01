@@ -35,6 +35,33 @@
     border: none;
 }
 
+main {
+    max-width: 1240px;
+    margin: 0 auto;
+    /* align-items: center; */
+}
+
+main > section {
+    margin-top: 130px;
+}
+
+.our-features {
+    margin-left: 130px;
+    max-width: 530px;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.feature-title {
+    font-size: 2.8rem;
+}
+
+#quick-list {
+    font-weight: 500;
+}
+
+/* navbar styles */
 .navbar {
     justify-content: space-between;
     align-items: center;
@@ -74,6 +101,13 @@
 
 .banner-img {
     width: 100%;
+}
+
+/* teams and features related style */
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
 }
 
 @media screen and (max-width: 576px) {
